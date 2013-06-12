@@ -9,6 +9,8 @@ package
 		// Bitmaps
         [Embed(source = "../media/textures/asteroid.png")]
 		public static const Asteroid:Class;
+		[Embed(source = "../media/textures/Bubble1.png")]
+		public static const Bubble1:Class;
 		
         [Embed(source = "../media/textures/2x/background.png")]
         public static const Background:Class;

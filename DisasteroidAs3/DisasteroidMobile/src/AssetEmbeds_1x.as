@@ -8,10 +8,9 @@ package
 	{
 		[Embed(source = "../media/textures/asteroid.png")]
 		public static const Asteroid:Class;
-		
-		// Bitmaps
-        
-		
+		[Embed(source = "../media/textures/Bubble1.png")]
+		public static const Bubble1:Class;
+
         [Embed(source = "../media/textures/1x/background.png")]
         public static const Background:Class;
         

@@ -17,7 +17,7 @@ package
     import scenes.ControlledBodyTestScene;
 	import scenes.Box2DTestScene;
 	import scenes.ShipControlTestScene;
-	
+	import scenes.BubbleTestScene1;
 	
     import starling.core.Starling;
     import starling.display.BlendMode;
@@ -70,7 +70,8 @@ package
 			
 			var scenesToCreate:Array = [
                 ["ship control test", ShipControlTestScene],
-				["box2d test", Box2DTestScene ]
+				["box2d test", Box2DTestScene ],
+				["bubble test1", BubbleTestScene1 ]
 			];
 			
 			var buttonTexture:Texture = Assets.getTexture("ButtonBig");
